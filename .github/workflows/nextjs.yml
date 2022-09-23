@@ -56,6 +56,7 @@ jobs:
         with:
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
+          cache-dependency-path: ${{ github.workspace }}/personal-page/${{ steps.detect-package-manager.outputs.manager }}.lock
       - name: Setup Pages
         uses: actions/configure-pages@v2
         with:
