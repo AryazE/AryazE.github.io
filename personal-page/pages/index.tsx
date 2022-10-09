@@ -11,9 +11,9 @@ import { Experiences } from '../components/Experiences';
 import { ExperienceType } from '../components/Experience';
 import Image from 'next/image';
 
-function Home({ projects, experiences } : { projects: ProjectType; experiences: ExperienceType; }) {
+function Home({ projects, experiences } : { projects: [ProjectType]; experiences: [ExperienceType]; }) {
   return (
-    <Container maxWidth='false'>
+    <Container maxWidth={false}>
       <Head>
         <title>Aryaz Eghbali</title>
         <meta name="description" content="Aryaz Eghbali's personal page" />
@@ -25,7 +25,7 @@ function Home({ projects, experiences } : { projects: ProjectType; experiences: 
         <KeyboardArrowUpIcon />
       </Fab>
 
-      <Container maxWidth='false' >
+      <Container maxWidth={false} >
         <AppBar position="fixed" sx={{ borderBottom: 1, borderColor: 'divider' }}>
           <Toolbar>
             <Typography component='a' href='#' sx={{ mr: 2, color: 'inherit', textDecoration: 'none' }} >
