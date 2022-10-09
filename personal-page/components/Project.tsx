@@ -1,6 +1,14 @@
 import { Card, CardContent, Typography, Link } from '@mui/material';
 
-export const Project = ({ project }) => {
+interface ProjectType {
+  name: string;
+  description: string;
+  githubURL: string;
+  special?: string;
+  venue?: string;
+}
+
+export const Project = ({ project: ProjectType }) => {
     return (
         <Card sx={{ margin: 2 }}>
             <CardContent>
