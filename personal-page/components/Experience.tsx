@@ -1,6 +1,7 @@
 import { Card, CardContent, Typography, Link } from '@mui/material';
 
-interface ExperienceType {
+export interface ExperienceType {
+  id: string;
   title: string;
   place: string;
   date: string;
@@ -8,7 +9,7 @@ interface ExperienceType {
   supervisor?: string;
 }
 
-export const Experience = ({ experience }: { ExperienceType }) => {
+export const Experience = ({ experience }: { experience: ExperienceType; } ) => {
     return (
         <Card sx={{ margin: 2 }}>
             <CardContent>

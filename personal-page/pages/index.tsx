@@ -6,14 +6,12 @@ import SchoolIcon from '@mui/icons-material/School';
 import Head from 'next/head';
 import { useState } from 'react';
 import { Projects } from '../components/Projects';
+import { ProjectType } from '../components/Project';
 import { Experiences } from '../components/Experiences';
+import { ExperienceType } from '../components/Experience';
 import Image from 'next/image';
 
-function Home({ projects, experiences }) {
-  const [value, setValue] = useState('about');
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+function Home({ projects, experiences } : { projects: ProjectType; experiences: ExperienceType; }) {
   return (
     <Container maxWidth='false'>
       <Head>
