@@ -8,7 +8,7 @@ interface ProjectType {
   venue?: string;
 }
 
-export const Project = ({ project: ProjectType }) => {
+export const Project = ({ project }: { ProjectType }) => {
     return (
         <Card sx={{ margin: 2 }}>
             <CardContent>

@@ -8,7 +8,7 @@ interface ExperienceType {
   supervisor?: string;
 }
 
-export const Experience = ({ experience: ExperienceType }) => {
+export const Experience = ({ experience }: { ExperienceType }) => {
     return (
         <Card sx={{ margin: 2 }}>
             <CardContent>
