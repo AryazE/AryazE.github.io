@@ -19,7 +19,7 @@
         "id": "4",
         "title": "Researcher",
         "place": "ETH Zurich",
-        "date": "2018-2019",
+        "date": "2018 - 2019",
         "supervisor": "Roger Wattenhofer",
         "description": "Worked on modeling the hardware usage by Bitcoin miners."
     },
@@ -34,7 +34,7 @@
         "id": "2",
         "title": "M.Sc. in Computer Science",
         "place": "University of Calgary",
-        "date": "2014-2018",
+        "date": "2014 - 2018",
         "supervisor": "Philipp Weolfel",
         "description": "Thesis on proving a lower bound for abortable leader election algorithm."
     },

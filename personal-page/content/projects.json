@@ -16,14 +16,20 @@
     },
     {
         "id": 2,
-        "name": "No Strings Attached"
+        "name": "No Strings Attached",
+        "description": "An empirical study on string-related bugs in JavaScript, analyzing how they manifest, their root causes, and how they can be repaired.",
+        "venue": "The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020)."
     },
     {
         "id": 1,
-        "name": "12 Angry Miners"
+        "name": "12 Angry Miners",
+        "description": "A heuristic-based modeling of the BitCoin mining hardware distribution over time.",
+        "venue": "The 3rd International Workshop on Cryptocurrencies and Blockchain Technology (CBT 2019)."
     },
     {
         "id": 0,
-        "name": "Lower Bound for Abortable Leader Election"
+        "name": "Lower Bound for Abortable Leader Election",
+        "description": "Leader election is the problem of electing a leader from a set of processes. We show that there is a lower bound on the number of remote memory references (RMRs) required for abortable leader election in a distributed system.",
+        "venue": "The 32nd International Symposium on Distributed Computing (DISC 2018)."
     }
 ]

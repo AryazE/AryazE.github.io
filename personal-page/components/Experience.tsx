@@ -11,7 +11,7 @@ export const Experience = ({ experience }) => {
                 {experience.date}, {experience.place}
               </Typography>
               <Typography variant="body2" component="div">
-                {experience.supervisor || ''}
+                {(experience.supervisor && 'Supervisor: ' + experience.supervisor) || ''}
               </Typography>
               <Typography variant="body2" component="div">
                 {experience.description || ''}
