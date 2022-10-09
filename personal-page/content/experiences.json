@@ -1,0 +1,47 @@
+[
+    {
+        "id": "5",
+        "title": "PhD in Computer Science",
+        "place": "University of Stuttgart",
+        "date": "2020 - present",
+        "supervisor": "Michael Pradel",
+        "description": "Working on software analysis tools, metrics for evaluating code generating models, and automating software engineering tasks."
+    },
+    {
+        "id": "4",
+        "title": "Research Intern",
+        "place": "GitHub",
+        "date": "Summer 2022",
+        "supervisor": "Max Schaefer and Frank Tip",
+        "description": "Worked on automated test generation"
+    },
+    {
+        "id": "4",
+        "title": "Researcher",
+        "place": "ETH Zurich",
+        "date": "2018-2019",
+        "supervisor": "Roger Wattenhofer",
+        "description": "Worked on modeling the hardware usage by Bitcoin miners."
+    },
+    {
+        "id": "3",
+        "title": "Data Science Intern",
+        "place": "Divar.ir",
+        "date": "Summer 2018",
+        "description": "Worked on analyzing in-app chat data to detect spam and offensive messages."
+    },
+    {
+        "id": "2",
+        "title": "M.Sc. in Computer Science",
+        "place": "University of Calgary",
+        "date": "2014-2018",
+        "supervisor": "Philipp Weolfel",
+        "description": "Thesis on proving a lower bound for abortable leader election algorithm."
+    },
+    {
+        "id": "1",
+        "title": "B.Sc. in Electrical & Computer Engineering",
+        "place": "University of Tehran",
+        "date": "2010 - 2014"
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "id": 4,
+        "name": "DynaPyt",
+        "description": "DynaPyt is the first general-purpose dynamic analysis framework for Python. It provides analysis hooks of various abstraction levels, ranging from individual operations to all runtime events. Analyses in DynaPyt are also able to modify the runtime values, which allows the possibility of implementing analyses like concolic testing.",
+        "githubURL": "https://github.com/sola-st/DynaPyt",
+        "venue": "The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)."
+    },
+    {
+        "id": 3,
+        "name": "CrystalBLEU",
+        "description": "CrystalBLEU is a novel metric for evaluating similarity between source code. It is based on BLEU (Papineni et. al 2002), with higher distinguishability.",
+        "githubURL": "https://github.com/sola-st/crystalbleu",
+        "venue": "The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2022).",
+        "special": "ACM SIGSOFT Distinguished Paper Award"
+    },
+    {
+        "id": 2,
+        "name": "No Strings Attached"
+    },
+    {
+        "id": 1,
+        "name": "12 Angry Miners"
+    },
+    {
+        "id": 0,
+        "name": "Lower Bound for Abortable Leader Election"
+    }
+]
