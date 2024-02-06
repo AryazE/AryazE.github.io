@@ -9,9 +9,13 @@ import { Projects } from '../components/Projects';
 import { ProjectType } from '../components/Project';
 import { Experiences } from '../components/Experiences';
 import { ExperienceType } from '../components/Experience';
+import { ServiceType } from '../components/Service';
+import { Services } from '../components/Services';
+import { TalkType } from '../components/Talk';
+import { Talks } from '../components/Talks';
 import Image from 'next/image';
 
-function Home({ projects, experiences } : { projects: [ProjectType]; experiences: [ExperienceType]; }) {
+function Home({ projects, experiences, services, talks } : { projects: [ProjectType]; experiences: [ExperienceType]; services: [ServiceType]; talks: [TalkType];}) {
   return (
     <Container maxWidth={false}>
       <Head>
@@ -59,6 +63,8 @@ function Home({ projects, experiences } : { projects: [ProjectType]; experiences
         </Paper>
         <Projects projects={projects} />
         <Experiences experiences={experiences} />
+        <Talks talks={talks} />
+        <Services services={services} />
       </Container>
     </Container>
   );
@@ -67,10 +73,14 @@ function Home({ projects, experiences } : { projects: [ProjectType]; experiences
 export async function getStaticProps() {
   const projects = JSON.parse(fs.readFileSync('./content/projects.json', { encoding: 'utf-8' }));
   const experiences = JSON.parse(fs.readFileSync('./content/experiences.json', { encoding: 'utf-8' }));
+  const services = JSON.parse(fs.readFileSync('./content/services.json', { encoding: 'utf-8' }));
+  const talks = JSON.parse(fs.readFileSync('./content/talks.json', { encoding: 'utf-8' }));
   return {
     props: {
       projects,
-      experiences
+      experiences,
+      services,
+      talks
     }
   };
 }

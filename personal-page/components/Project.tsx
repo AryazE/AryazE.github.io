@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, Link } from '@mui/material';
 export interface ProjectType {
   id: string;
   name: string;
+  authors: string;
   description: string;
   githubURL: string;
   special?: string;
@@ -20,6 +21,9 @@ export const Project = ({ project }: { project: ProjectType; } ) => {
               </Typography>
               <Typography variant="body2">
                 <b>{project.special}</b>
+              </Typography>
+              <Typography variant="body2">
+                {project.authors}
               </Typography>
               <Typography variant="body2">
                 {project.description}

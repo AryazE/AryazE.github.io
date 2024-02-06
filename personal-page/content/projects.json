@@ -1,7 +1,16 @@
 [
     {
+        "id": 5,
+        "name": "TestPilot",
+        "authors": "Max Schäfer, Sarah Nadi, Aryaz Eghbali, Michael Pradel",
+        "description": "An Empirical Evaluation of Using Large Language Models for Automated Unit Test Generation.",
+        "githubURL": "https://github.com/githubnext/testpilot",
+        "venue": "IEEE Transactions on Software Engineering (TSE 2024)."
+    },
+    {
         "id": 4,
         "name": "DynaPyt",
+        "authors": "Aryaz Eghbali, Michael Pradel",
         "description": "DynaPyt is the first general-purpose dynamic analysis framework for Python. It provides analysis hooks of various abstraction levels, ranging from individual operations to all runtime events. Analyses in DynaPyt are also able to modify the runtime values, which allows the possibility of implementing analyses like concolic testing.",
         "githubURL": "https://github.com/sola-st/DynaPyt",
         "venue": "The ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering (ESEC/FSE 2022)."
@@ -9,6 +18,7 @@
     {
         "id": 3,
         "name": "CrystalBLEU",
+        "authors": "Aryaz Eghbali, Michael Pradel",
         "description": "CrystalBLEU is a novel metric for evaluating similarity between source code. It is based on BLEU (Papineni et. al 2002), with higher distinguishability.",
         "githubURL": "https://github.com/sola-st/crystalbleu",
         "venue": "The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2022).",
@@ -17,18 +27,21 @@
     {
         "id": 2,
         "name": "No Strings Attached",
+        "authors": "Aryaz Eghbali, Michael Pradel",
         "description": "An empirical study on string-related bugs in JavaScript, analyzing how they manifest, their root causes, and how they can be repaired.",
         "venue": "The 35th IEEE/ACM International Conference on Automated Software Engineering (ASE 2020)."
     },
     {
         "id": 1,
         "name": "12 Angry Miners",
+        "authors": "Aryaz Eghbali, Roger Wattenhofer",
         "description": "A heuristic-based modeling of the BitCoin mining hardware distribution over time.",
         "venue": "The 3rd International Workshop on Cryptocurrencies and Blockchain Technology (CBT 2019)."
     },
     {
         "id": 0,
         "name": "Lower Bound for Abortable Leader Election",
+        "authors": "Aryaz Eghbali, Philipp Woelfel",
         "description": "Leader election is the problem of electing a leader from a set of processes. We show that there is a lower bound on the number of remote memory references (RMRs) required for abortable leader election in a distributed system.",
         "venue": "The 32nd International Symposium on Distributed Computing (DISC 2018)."
     }

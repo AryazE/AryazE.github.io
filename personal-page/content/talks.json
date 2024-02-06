@@ -1,0 +1,14 @@
+[
+    {
+        "id": 2,
+        "venue": "ASE tutorial",
+        "subject": "Dynamically analyzing Python programs using DynaPyt",
+        "year": "2023"
+    },
+    {
+        "id": 1,
+        "venue": "Dagstuhl Seminar on Programming Language Processing",
+        "subject": "Iterative code completion using large language models",
+        "year": "2023"
+    }
+]
