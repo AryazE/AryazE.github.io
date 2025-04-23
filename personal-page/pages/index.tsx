@@ -220,7 +220,7 @@ function Home({
 						<Grid item xs={12} md={8}>
 							<Box sx={{ p: 4 }}>
 								<Typography variant="h4" gutterBottom fontWeight={600}>
-									Hello, I'm Aryaz Eghbali
+									Hello, I&apos;m Aryaz Eghbali
 								</Typography>
 								<Typography
 									variant="subtitle1"
