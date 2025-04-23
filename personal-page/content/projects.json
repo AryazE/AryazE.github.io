@@ -1,5 +1,21 @@
 [
     {
+        "id": 7,
+        "name": "DyLin",
+        "authors": "Aryaz Eghbali, Felix Burk, Michael Pradel",
+        "description": "DyLin is a dynamic linter for Python.",
+        "githubURL": "https://github.com/sola-st/DyLin",
+        "venue": "ACM International Conference on the Foundations of Software Engineering (FSE 2025)."
+    },
+    {
+        "id": 6,
+        "name": "De-Hallucinator",
+        "authors": "Aryaz Eghbali, Michael Pradel",
+        "description": "Mitigating LLM Hallucinations in Code Generation Tasks via Iterative Grounding",
+        "githubURL": "https://github.com/AryazE/dehallucinator",
+        "venue": "https://arxiv.org/abs/2401.01701"
+    },
+    {
         "id": 5,
         "name": "TestPilot",
         "authors": "Max Schäfer, Sarah Nadi, Aryaz Eghbali, Michael Pradel",

@@ -1,10 +1,26 @@
 [
     {
+        "id": 6,
+        "name": "Reviewer for ACM Transactions on Software Engineering and Methodology (TOSEM) 2025"
+    },
+    {
+        "id": 5,
+        "name": "Reviewer for IEEE Transactions on Software Engineering (TSE) 2024"
+    },
+    {
+        "id": 4,
+        "name": "Reviewer for Journal of Automated Software Engineering (ASE) 2024"
+    },
+    {
+        "id": 3,
+        "name": "Programme Committee for ASE Student Research Competition 2024"
+    },
+    {
         "id": 2,
         "name": "External reviewer for ISSTA 2024"
     },
     {
         "id": 1,
-        "name": "Reviewer for Transactions on Interactive Intelligent Systems (TiiS)"
+        "name": "Reviewer for Transactions on Interactive Intelligent Systems (TiiS) 2023"
     }
 ]
